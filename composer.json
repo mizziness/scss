@@ -1,5 +1,5 @@
 {
-    "name": "chasegiunta/scss",
+    "name": "mizziness/scss",
     "description": "Compiler for SCSS",
     "type": "craft-plugin",
     "version": "1.0.1",
@@ -11,8 +11,8 @@
         "scss"
     ],
     "support": {
-        "docs": "https://github.com/chasegiunta/scss/blob/master/README.md",
-        "issues": "https://github.com/chasegiunta/scss/issues"
+        "docs": "https://github.com/mizziness/scss/blob/master/README.md",
+        "issues": "https://github.com/mizziness/scss/issues"
     },
     "license": "MIT",
     "authors": [
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-          "chasegiunta\\scss\\": "src/"
+          "mizziness\\scss\\": "src/"
         }
     },
     "extra": {
@@ -35,10 +35,10 @@
         "handle": "scss",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/chasegiunta/scss/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/mizziness/scss/master/CHANGELOG.md",
         "components": {
-            "scssService": "chasegiunta\\scss\\services\\ScssService"
+            "scssService": "mizziness\\scss\\services\\ScssService"
         },
-        "class": "chasegiunta\\scss\\Scss"
+        "class": "mizziness\\scss\\Scss"
     }
 }
